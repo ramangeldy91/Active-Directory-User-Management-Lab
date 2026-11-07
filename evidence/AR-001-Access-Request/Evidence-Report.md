@@ -29,7 +29,7 @@ The approval was recorded in the request documentation. It was not processed thr
 
 ## 5. Provisioning
 
-The test user was added to the Entra security group:
+The user was manually added to the Entra security group through Microsoft Entra Admin Center:
 
 `GRP-IT-Support-Basic`
 

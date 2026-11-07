@@ -96,7 +96,20 @@ The target group was:
 
 
 
-## 6. Evidence Files
+## 6. Audit Log Evidence
+
+Microsoft Entra Audit Logs were reviewed to verify the administrative group membership changes.
+
+The following activities were confirmed:
+
+- Add member to group - GRP-Finance-Basic
+- Remove member from group - GRP-IT-Support-Basic
+
+These events provide an audit trail for the access changes performed during the department transfer.
+
+
+
+## 7. Evidence Files
 
 
 
@@ -124,7 +137,7 @@ Shows that `IAM Lab User 01` is no longer a member of `GRP-IT-Support-Basic`.
 
 
 
-## 7. Security Considerations
+## 8. Security Considerations
 
 
 
@@ -138,7 +151,7 @@ Shows that `IAM Lab User 01` is no longer a member of `GRP-IT-Support-Basic`.
 
 
 
-## 8. Scope and Limitations
+## 9. Scope and Limitations
 
 
 
@@ -164,7 +177,7 @@ These steps belong to the designed Mover workflow but are not claimed as complet
 
 
 
-## 9. Conclusion
+## 10. Conclusion
 
 
 

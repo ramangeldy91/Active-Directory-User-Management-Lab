@@ -1,8 +1,8 @@
-﻿# Leaver Offboarding - Evidence Report
+# Leaver Offboarding - Evidence Report
 
 
 
-## 1. Overview
+## 1\. Overview
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-## 2. Objective
+## 2\. Objective
 
 
 
@@ -26,19 +26,15 @@ The objective was to perform and validate the key identity offboarding actions:
 
 
 
-- Disable the user account.
-
-- Revoke active sign-in sessions.
-
-- Remove the user from the assigned security group.
-
-- Verify the resulting account and group membership state.
-
-- Review administrative activity in Entra Audit Logs.
+* Disable the user account.
+* Revoke active sign-in sessions.
+* Remove the user from the assigned security group.
+* Verify the resulting account and group membership state.
+* Review administrative activity in Entra Audit Logs.
 
 
 
-## 3. Actions Performed
+## 3\. Actions Performed
 
 
 
@@ -64,7 +60,7 @@ The objective was to perform and validate the key identity offboarding actions:
 
 
 
-## 4. Evidence Files
+## 4\. Evidence Files
 
 
 
@@ -82,7 +78,7 @@ The objective was to perform and validate the key identity offboarding actions:
 
 
 
-## 5. Audit Log Verification
+## 5\. Audit Log Verification
 
 
 
@@ -90,9 +86,8 @@ The following administrative events were identified:
 
 
 
-- **Update user** - account update associated with disabling the user.
-
-- **Remove member from group** - removal of the user's group membership.
+* **Update user** - account update associated with disabling the user.
+* **Remove member from group** - removal of the user's group membership.
 
 
 
@@ -100,17 +95,14 @@ The session revocation action was successfully performed in the portal. A separa
 
 
 
-## 6. Final Validation
+## 6\. Final Validation
 
 
 
-- The test account is disabled.
-
-- The user is no longer a member of GRP-IT-Support-Basic.
-
-- Sign-in sessions were revoked through the Entra admin center.
-
-- Relevant administrative activity was recorded in Audit Logs.
+* The test account is disabled.
+* The user is no longer a member of GRP-IT-Support-Basic.
+* Sign-in sessions were successfully revoked through the Entra admin center. A separate audit event for this action was not independently confirmed.
+* Relevant administrative activity was recorded in Audit Logs.
 
 
 
@@ -118,7 +110,7 @@ The session revocation action was successfully performed in the portal. A separa
 
 
 
-## 7. Environment Limitations
+## 7\. Environment Limitations
 
 
 
@@ -130,17 +122,12 @@ The following enterprise processes were documented but not implemented in the la
 
 
 
-- Actual HR termination request and approval.
-
-- Manager and resource-owner approval.
-
-- Automated HRIS integration.
-
-- Application-specific session and token revocation.
-
-- Corporate device management and data retention.
-
-- Permanent account deletion.
+* Actual HR termination request and approval.
+* Manager and resource-owner approval.
+* Automated HRIS integration.
+* Application-specific session and token revocation.
+* Corporate device management and data retention.
+* Permanent account deletion.
 
 
 
@@ -153,5 +140,4 @@ Account deletion remains a separate process governed by organizational retention
 
 
 No real employee accounts or production resources were used.
-
 

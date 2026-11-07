@@ -28,6 +28,10 @@ The test user account was successfully created in Microsoft Entra ID.
 
 
 
+The account status was verified as Enabled.
+
+
+
 The account was created without administrative roles or license assignments.
 
 
@@ -80,6 +84,8 @@ The following checks were completed successfully:
 
 | User account creation | PASS |
 
+| Account status verification (Enabled) | PASS |
+
 | Employee ID verification | PASS |
 
 | Department verification | PASS |
@@ -92,7 +98,7 @@ The following checks were completed successfully:
 
 
 
-**Total: 6 checks passed.**
+**Total: 7 checks passed.**
 
 
 
